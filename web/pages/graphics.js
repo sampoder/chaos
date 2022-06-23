@@ -14,14 +14,14 @@ export default function Graphics() {
       number: "50",
     },
     {
-      label: "100",
+      label: "200",
       color: "purple",
-      number: "100",
+      number: "200",
     },
     {
-      label: "150",
+      label: "400",
       color: "yellow",
-      number: "150",
+      number: "400",
     },
   ];
   let gravity = [
