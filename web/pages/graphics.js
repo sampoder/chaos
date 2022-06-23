@@ -126,7 +126,7 @@ export default function Graphics() {
               }}
               p={4}
               onClick={() => {
-                fetch(`/api/event?particles=${x.number}`);
+                fetch(`/api/graphics?particles=${x.number}`);
               }}
             >
               <Heading as="h1" sx={{ fontSize: ["4em", "5em"] }}>
@@ -164,7 +164,7 @@ export default function Graphics() {
               }}
               p={4}
               onClick={async () => {
-                let res = await fetch(`/api/event?gravity=${x.number}`).then((r) => r.json());
+                let res = await fetch(`/api/graphics?gravity=${x.number}`).then((r) => r.json());
                 console.log(res)
                 if(res.error){
                   alert(`Sorry! ${res.error}. Please try again in a bit, I do this to ensure no ears are hurt` )
