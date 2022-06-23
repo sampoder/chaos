@@ -11,17 +11,17 @@ export default function Graphics() {
     {
       label: "50",
       color: "orange",
-      number: "0",
+      number: "50",
     },
     {
       label: "100",
       color: "purple",
-      number: "1",
+      number: "100",
     },
     {
       label: "150",
       color: "yellow",
-      number: "2",
+      number: "150",
     },
   ];
   let gravity = [
