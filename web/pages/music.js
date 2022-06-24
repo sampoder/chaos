@@ -131,6 +131,11 @@ export default function Music() {
     {
       label: "6",
       color: "green",
+      number: "9", // Skip Kahoot
+    },
+    {
+      label: "7",
+      color: "purple",
       number: "10", // Skip Kahoot
     },
   ];
