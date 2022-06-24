@@ -36,7 +36,6 @@ const limiter = rateLimit({
 
 export default async function handler(req, res) {
   try {
-    await limiter.check(res, 4, "CACHE_TOKEN"); // 10 requests per minute
     const Pusher = require("pusher");
 
     const pusher = new Pusher({
